@@ -333,6 +333,26 @@ a {
     }
   }
 
+  .facebook:hover {
+    .circle {
+      animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
+        colorFacebook 1s linear forwards;
+    }
+    .social-svg {
+      fill: #3b5998;
+    }
+  }
+
+  .instagram:hover {
+    .circle {
+      animation: outWaveIn 1s cubic-bezier(0.42, 0, 0.58, 1) forwards,
+        colorInstagram 1s linear forwards;
+    }
+    .social-svg {
+      fill: #F44747;
+    }
+  }
+
   @keyframes outWaveIn {
     to {
       stroke-dasharray: 510;
@@ -374,6 +394,18 @@ a {
   @keyframes colorTwitter {
     to {
       stroke: #1da1f2;
+    }
+  }
+
+  @keyframes colorFacebook {
+    to {
+      stroke: #3b5998;
+    }
+  }
+
+  @keyframes colorInstagram {
+    to {
+      stroke: #F44747;
     }
   }
 }
@@ -644,6 +676,18 @@ a {
   .twitter:hover {
     .social-svg {
       fill: #1da1f2;
+    }
+  }
+
+  .facebook:hover {
+    .social-svg {
+      fill: #3b5998;
+    }
+  }
+
+  .instagram:hover {
+    .social-svg {
+      fill: #F44747;
     }
   }
 }

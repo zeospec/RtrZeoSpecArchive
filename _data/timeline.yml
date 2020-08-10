@@ -3,7 +3,7 @@
 # > date: Time span
 # > subtitle: The description under the title
 # > tags: List of tags you want to associate with the entry
-# > timeline-side: The side on which you want to display the entry: left or right
+# > timeline-side: The side on which you want to display the entry: left or left
 
 # Example of a timeline entry
 # - title: airbnb
@@ -17,45 +17,130 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: airbnb
-  title-url: https://example.com/
-  date: Sep 2019 - Present
-  subtitle: Fullstack Developer
+- title: Rotary Bangalore East
+  title-url: http://rotarybangaloreeast.com/
+  date: 29 July 2020 - Present
+  subtitle: Member
   tags:
-    - tag: React
-    - tag: Javascript
-    - tag: Ruby
-    - tag: Rails
-  timeline-side: right
-
-- title: Google
-  title-url: https://example.com/
-  date: Mar 2019 - Sep 2019
-  subtitle: Software Engineer as Intern
-  tags:
-    - tag: Flutter
-    - tag: Dart
-    - tag: Keycloak
-  timeline-side: right
-
-- title: Super University
-  title-url: https://example.com/
-  date: 2017 - 2019
-  subtitle: M.Sc. Computer Science
+    - tag: RID 3190
+    - tag: RBE
+    - tag: Easterner
+    - tag: Rotary
   timeline-side: left
 
-- title: Facebook
-  title-url: https://example.com/
-  date: Sep 2017 - Mar 2019
-  subtitle: Front-End Developer as Intern
+- title: Rotaract District Council 3190
+  title-url: https://rotaract3190.org/
+  date: July 2020 - Present
+  subtitle: District Rotaract Secretary, Operations & Training
   tags:
-    - tag: React
-    - tag: Node
-    - tag: Javascript
+    - tag: RID 3190
+    - tag: Team ELITE
+    - tag: Rotaract
   timeline-side: right
 
-- title: Super University
-  title-url: https://example.com/
-  date: 2014 - 2017
-  subtitle: B.A. Computer Science
+- title: Rotary District Council 3190
+  title-url: https://www.facebook.com/rotarydistrict3190
+  date: July 2020 - Present
+  subtitle: Member, Awards and Citation Committee
+  tags:
+    - tag: RID 3190
+    - tag: Sky Rockers
+    - tag: Rotary
+  timeline-side: left
+
+- title: Rotaract Bangalore East
+  title-url: https://3190rbe.org/
+  date: July 2019 - Present
+  subtitle: Charter Member
+  tags:
+    - tag: RID 3190
+    - tag: RBE
+    - tag: Easterner
+    - tag: Rotaract
+  timeline-side: right
+
+- title: Rotaract District Council 3190
+  title-url: https://rotaract3190.org/
+  date: July 2019 – June 2020
+  subtitle: District Joint Secretary
+  tags:
+    - tag: RID 3190
+    - tag: Team Panthers
+    - tag: Rotaract
+  timeline-side: left
+
+- title: ROTACON 2019 (ICGF on Youth Services)
+  title-url: https://rotaract3190.org/
+  date: September 2019
+  subtitle: Co-Chairperson
+  tags:
+    - tag: RID 3190
+    - tag: Rotaract
+    - tag: Rotary
+  timeline-side: right
+
+- title: Rotaract District Council 3190
+  title-url: https://rotaract3190.org/
+  date: July 2018 – June 2019
+  subtitle: Director of Webservices
+  tags:
+    - tag: RID 3190
+    - tag: Rotaract
+  timeline-side: left
+
+- title: Rotary Job Mela
+  title-url: https://rotaract3190.org/
+  date: July 2018 – June 2019
+  subtitle: Secretary
+  tags:
+    - tag: RID 3190
+    - tag: Rotary
+    - tag: Rotaract
+  timeline-side: right
+  
+- title: Rotaract Club of C M R I T
+  title-url: https://www.instagram.com/rotaract_cmrit/
+  date: July 2018 – June 2019
+  subtitle: Mentor
+  tags:
+    - tag: RID 3190
+    - tag: Rotaract
+  timeline-side: left
+
+- title: Rotaract Club of C M R I T
+  title-url: https://www.instagram.com/rotaract_cmrit/
+  date: July 2017 – June 2018
+  subtitle: President
+  tags:
+    - tag: RID 3190
+    - tag: Golden Jubilee
+    - tag: Rotaract
+  timeline-side: right
+
+- title: Rotaract District Council 3190
+  title-url: https://rotaract3190.org/
+  date: July 2017 – June 2018
+  subtitle: District Committee Member (I.S.D.)
+  tags:
+    - tag: RID 3190
+    - tag: Golden Jubilee
+    - tag: Rotaract
+  timeline-side: left
+
+- title: Rotaract Club of C M R I T
+  title-url: https://www.instagram.com/rotaract_cmrit/
+  date: July 2016 – June 2017
+  subtitle: Secretary
+  tags:
+    - tag: RID 3190
+    - tag: Rotaract
+  timeline-side: right
+
+- title: Rotaract Club of C M R I T
+  title-url: https://www.instagram.com/rotaract_cmrit/
+  date: September 2015 – June 2016
+  subtitle: Charter Member & International Service Director
+  tags:
+    - tag: RID 3190
+    - tag: Rotaract
   timeline-side: left
