@@ -24,9 +24,23 @@ projects:
     # - repo1-to-be-excluded
     # - repo2-to-be-excluded
 
-# plugins:
+compress_html:
+  clippings: []
+  comments: []
+  endings: []
+  ignore:
+    envs: []
+  blanklines: false
+  profile: false
+  startings: []
+
+plugins:
+  - jekyll-sitemap
 #   - "jekyll-github-metadata"
 
+include:
+  - _redirects
+  
 exclude:
   [
     "_assets",
