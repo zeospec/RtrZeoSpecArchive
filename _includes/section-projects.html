@@ -1,5 +1,5 @@
-{% if site.show_projects %}
-  <h1 class="title"><span>{{site.projects_title}}</span></h1>
+{% if site.data.config.show_projects %}
+  <h1 class="title"><span>{{site.data.config.projects_title}}</span></h1>
   <div class="projects-wrapper">
     {% for project in site.data.projects %}
       <div class="project neumorphism-card" data-aos="zoom-in-down">
@@ -7,11 +7,14 @@
           <h3>{{project.name}}</h3>
         </div>
         <p class="project-desc">{{project.descr}}</p>
-        {% if project.demo %}
-          <a class="highlight-link" href="{{project.demo}}" target="_blank" rel="noreferrer">
-            Demo
+        {% if project.links %}
+          {% for link in project.links %}
+          <a class="highlight-link" href="{{link.url}}" target="_blank" rel="noreferrer">
+            {{link.text}}
           </a>
+          {% endfor %}
         {% endif %}
+
         {% if project.tags %}
           <div class="tag-wrapper">
             {% for tag in project.tags %}
@@ -24,8 +27,8 @@
   </div>
 {% endif %}
 
-{% if site.show_os_projects %}
-  <h1 class="title">{{site.os_projects_title}}</h1>
+{% if site.data.config.show_os_projects %}
+  <h1 class="title">{{site.data.config.os_projects_title}}</h1>
   {% if site.projects.sort_by == 'stars' %}
     {% assign sort_order = 'stargazers_count', 'last' %}
   {% else %}

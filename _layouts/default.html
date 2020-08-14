@@ -6,8 +6,34 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{{ site.title }}</title>
-  <meta name="description" content="{{ site.description }}">
+  <title>{{ site.data.config.title }}</title>
+  <meta name="description" content="{{ site.data.config.description }}">
+
+  <meta property="og:title" content="{{ site.data.config.title }}">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://rtr.zeospec.com/">
+	<meta property="og:site_name" content="{{ site.data.config.title }}" />
+	<meta property="og:image" content="{{ site.data.config.og_img | absolute_url }}" />
+	<meta property="og:description"
+		content="{{ site.data.config.description }}">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:creator" content="@zeospec">
+  <meta name="twitter:site" content="@zeospec">
+	<meta name="twitter:title" content="{{ site.data.config.title }}">
+	<meta name="twitter:description"
+		content="{{ site.data.config.description }}">
+	<meta name="twitter:domain" content="rtr.zeospec.com">
+	<meta name="twitter:image:src" content="{{ site.data.config.og_img | absolute_url }}">
+	<meta name="description"
+		content="{{ site.data.config.description }}">
+	<meta name="subject" content="The Open Source Business Forum">
+	<meta name="url" content="https://rtr.zeospec.com/">
+	<meta name="identifier-URL" content="https://rtr.zeospec.com/">
+	<meta name="category" content="event">
+	<meta http-equiv="cache-control" content="public" />
+	<meta http-equiv="Expires" content="0">
+	<meta name="theme-color" content="#2b2d2f">
+
 
   <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/favicon/apple-touch-icon.png" | absolute_url }}">
   <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon/favicon-32x32.png" | absolute_url }}">
@@ -32,27 +58,27 @@
   </div>
   {% include landing-page.html %}
   <div class="layout">
-    {%if site.show_aboutme_card %}
+    {%if site.data.config.show_aboutme_card %}
     <section class="card neumorphism-card-big">
       {% include section-aboutme.html %}
     </section>
     {% endif %}
-    {%if site.show_skills_card %}
+    {%if site.data.config.show_skills_card %}
     <section class="card neumorphism-card-big">
       {% include section-skills.html %}
     </section>
     {% endif %}
-    {%if site.show_timeline_card %}
+    {%if site.data.config.show_timeline_card %}
     <section class="card neumorphism-card-big">
       {% include section-timeline.html %}
     </section>
     {% endif %}
-    {%if site.show_projects_card %}
+    {%if site.data.config.show_projects_card %}
     <section class="card neumorphism-card-big">
       {% include section-projects.html %}
     </section>
     {% endif %}
-    {%if site.show_contact_card %}
+    {%if site.data.config.show_contact_card %}
     <section class="card neumorphism-card-big">
       {% include section-contact.html %} 
     </section>

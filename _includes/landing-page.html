@@ -1,15 +1,15 @@
 <div id="landing">
   <div class="landing-title">
     <h1>Hi, I&#39;m
-      <span class="highlight-title">{{site.username}}</span>,
+      <span class="highlight-title">{{site.data.config.username}}</span>,
     </h1>
     <h1>
-      <span id="txt-rotate" data-period="2000" data-rotate='["{{site.typing_text}}", "scroll down for more."]'>
+      <span id="txt-rotate" data-period="2000" data-rotate='["{{site.data.config.typing_text}}", "scroll down for more."]'>
       </span>
     </h1>
     <div class="landing-icons">
-      {% if site.email != null %}
-      <a class="social-link email" aria-label="My E-Mail" href="mailto:{{site.email}}">
+      {% if site.data.config.email != null %}
+      <a class="social-link email" aria-label="My E-Mail" href="mailto:{{site.data.config.email}}">
         <svg viewBox="0 0 200 200" class="circle">
           <circle cx="100" cy="100" r="80" />
         </svg>
@@ -23,9 +23,9 @@
       </a>
       {% endif %}
 
-      {% if site.github_username != null %}
+      {% if site.data.config.github_username != null %}
       <a class="social-link" aria-label="My GitHub" target="_blank" rel="noreferrer"
-        href="https://github.com/{{site.github_username}}">
+        href="https://github.com/{{site.data.config.github_username}}">
         <svg viewBox="0 0 200 200" class="circle">
           <circle cx="100" cy="100" r="80" />
         </svg>
@@ -39,9 +39,9 @@
       </a>
       {% endif %}
 
-      {% if site.codepen_username != null %}
+      {% if site.data.config.codepen_username != null %}
       <a class="social-link" aria-label="My Codepen" target="_blank" rel="noreferrer"
-        href="https://codepen.io/{{site.codepen_username}}">
+        href="https://codepen.io/{{site.data.config.codepen_username}}">
         <svg viewBox="0 0 200 200" class="circle">
           <circle cx="100" cy="100" r="80" />
         </svg>
@@ -55,9 +55,9 @@
       </a>
       {% endif %}
 
-      {% if site.dev_username != null %}
+      {% if site.data.config.dev_username != null %}
       <a class="social-link" aria-label="My DEV" target="_blank" rel="noreferrer"
-        href="https://dev.to/{{site.dev_username}}">
+        href="https://dev.to/{{site.data.config.dev_username}}">
         <svg viewBox="0 0 200 200" class="circle">
           <circle cx="100" cy="100" r="80" />
         </svg>
@@ -71,9 +71,9 @@
       </a>
       {% endif %}
 
-      {% if site.linkedin_username != null %}
+      {% if site.data.config.linkedin_username != null %}
       <a class="social-link linkedin" aria-label="My LinkedIn" target="_blank" rel="noreferrer"
-        href="https://www.linkedin.com/in/{{site.linkedin_username}}">
+        href="https://www.linkedin.com/in/{{site.data.config.linkedin_username}}">
         <svg viewBox="0 0 200 200" class="circle">
           <circle cx="100" cy="100" r="80" />
         </svg>
@@ -87,9 +87,9 @@
       </a>
       {% endif %}
 
-      {% if site.twitter_username != null %}
+      {% if site.data.config.twitter_username != null %}
       <a class="social-link twitter" aria-label="My Twitter" target="_blank" rel="noreferrer"
-        href="https://twitter.com/{{site.twitter_username}}">
+        href="https://twitter.com/{{site.data.config.twitter_username}}">
         <svg viewBox="0 0 200 200" class="circle">
           <circle cx="100" cy="100" r="80" />
         </svg>
@@ -103,8 +103,9 @@
       </a>
       {% endif %}
 
+      {% if site.data.config.facebook_username != null %}
       <a class="social-link facebook" aria-label="My Facebook" target="_blank" rel="noreferrer"
-        href="https://www.facebook.com/zeospec/">
+        href="https://www.facebook.com/{{site.data.config.facebook_username}}">
         <svg viewBox="0 0 200 200" class="circle">
           <circle cx="100" cy="100" r="80" />
         </svg>
@@ -116,9 +117,11 @@
         </div>
         <span class="label">Facebook</span>
       </a>
+      {% endif %}
 
+      {% if site.data.config.instagram_username != null %}
       <a class="social-link instagram" aria-label="My Instagram" target="_blank" rel="noreferrer"
-        href="https://www.instagram.com/zeospec/">
+        href="https://www.instagram.com/{{site.data.config.instagram_username}}">
         <svg viewBox="0 0 200 200" class="circle">
           <circle cx="100" cy="100" r="80" />
         </svg>
@@ -130,7 +133,8 @@
         </div>
         <span class="label">Instagram</span>
       </a>
-
+      {% endif %}
+      
     </div>
   </div>
 </div>

@@ -1,0 +1,54 @@
+title: Rtr. Rtn. Arun Teja Godavarthi
+username: Rtr. Rtn. Arun Teja Godavarthi
+description: Rotaract Profile or Rtr. Rtn. Arun Teja Godavarthi.
+
+# /assets/....
+og_img: /assets/images/zeospec.jpg
+
+# typing_text: This will be typed before 'scroll down for more'.
+# > set this to your job/role title
+typing_text: District Rotaract Secretary
+
+email: hi@zeospec.com
+
+# github_username: ZeoSpec
+# codepen_username: exampleUser
+# dev_username: exampleUser
+# linkedin_username: ZeoSpec
+twitter_username: ZeoSpec
+facebook_username: ZeoSpec
+instagram_username: ZeoSpec
+
+# ABOUT ME SECTION
+show_aboutme_card: true
+about_me_title: About Me
+# about_me_description: This will be displayed under the title. <a class="highlight-link" href="https://github.com/zeospec" target="_blank" rel="noreferrer"> Github </a>
+about_me_description: I joined Rotaract in RIY 2015 - 2016, inducted by our PDRR Rtr. Rtn. Manohar H M. The day of 29 June 2020 maked the new beginnings as a dual member of Bangalore East.
+
+# SKILLS SECTION
+show_skills_card: false
+skills_title: Skills
+
+# TIMELINE SECTION
+show_timeline_card: true
+timeline_title: Rotaract Experience
+
+cv_download_link: https://zeospec.com/
+
+# PROJECTS SECTION
+
+show_projects_card: true
+show_projects: true
+projects_title: Caaaming Sooonn!!!
+
+show_os_projects: false
+os_projects_title: Open Source Projects
+
+# CONTACT SECTION
+show_contact_card: true
+contact_title: Contact
+# contact_description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. If you like this theme and want to use it for yourself, checkout the source code and the documentation at <a class="highlight-link" href="https://github.com/longpdo/neumorphism" target="_blank" rel="noreferrer"> Github </a>.
+
+# GOOGLE-ANALYTICS
+google-analytics:
+  id: ""

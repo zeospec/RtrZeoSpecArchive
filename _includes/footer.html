@@ -18,7 +18,7 @@
 </footer>
 
 <!-- Google Analytics -->
-{% if site.google-analytics %}
+{% if site.data.config.google-analytics %}
 <script>
   var dnt = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
   if (dnt != "1" && dnt != "yes") {
@@ -41,7 +41,7 @@
       "https://www.google-analytics.com/analytics.js",
       "ga"
     );
-    ga("create", "{{ site.google-analytics.id }}", "auto");
+    ga("create", "{{ site.data.config.google-analytics.id }}", "auto");
     ga("send", "pageview");
   }
 </script>
