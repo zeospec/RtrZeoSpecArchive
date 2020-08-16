@@ -22,7 +22,7 @@ instagram_username: ZeoSpec
 show_aboutme_card: true
 about_me_title: About Me
 # about_me_description: This will be displayed under the title. <a class="highlight-link" href="https://github.com/zeospec" target="_blank" rel="noreferrer"> Github </a>
-about_me_description: I joined Rotaract in RIY 2015 - 2016, inducted by our PDRR Rtr. Rtn. Manohar H M. The day of 29 June 2020 maked the new beginnings as a dual member of Bangalore East.
+about_me_description: I entered the Rotary-Rotaract family as a Rotaractor in 2015 through Rotaract Club of C M R I T. It all began with RotaFest 2K15, I consider it to be fortunate to have been inducted into Rotaract by PDRR Rtr. Manohar H M. 29 August 2020 marked another beginning when PDG Rtn. S R Yogananda pinned the Rotary wheel to my Jacket. Rotary & Rotaract Bangalore East are my homes in the Rotary world.
 
 # SKILLS SECTION
 show_skills_card: false
@@ -30,7 +30,7 @@ skills_title: Skills
 
 # TIMELINE SECTION
 show_timeline_card: true
-timeline_title: Rotaract Experience
+timeline_title: Brief Rotaract Timeline
 
 cv_download_link: https://zeospec.com/
 
@@ -46,7 +46,7 @@ os_projects_title: Open Source Projects
 # CONTACT SECTION
 show_contact_card: true
 contact_title: Contact
-# contact_description: Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. If you like this theme and want to use it for yourself, checkout the source code and the documentation at <a class="highlight-link" href="https://github.com/longpdo/neumorphism" target="_blank" rel="noreferrer"> Github </a>.
+contact_description: You can contact me anytime of the day feel free to call or on use any of the below social media platforms to DM your thoughts and questions. Check my personal blog <a class="highlight-link" href="https://zeospec.com" target="_blank" rel="noreferrer">here</a>.
 
 # GOOGLE-ANALYTICS
 google-analytics:

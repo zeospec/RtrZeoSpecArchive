@@ -3,7 +3,7 @@
 # > date: Time span
 # > subtitle: The description under the title
 # > tags: List of tags you want to associate with the entry
-# > timeline-side: The side on which you want to display the entry: left or left
+# > timeline-side: The side on which you want to display the entry: right or right
 
 # Example of a timeline entry
 # - title: airbnb
@@ -17,6 +17,16 @@
 #     - tag: Rails
 #   timeline-side: right
 
+- title: Rotary 3190 Business Directory
+  title-url: http://www.rid3190businessdirectory.in/
+  date: 14 August 2020 - Present
+  subtitle: Committee Member
+  tags:
+    - tag: RID 3190
+    - tag: Sky Rockers
+    - tag: Rotary
+  timeline-side: left
+
 - title: Rotary Bangalore East
   title-url: http://rotarybangaloreeast.com/
   date: 29 July 2020 - Present
@@ -26,7 +36,7 @@
     - tag: RBE
     - tag: Easterner
     - tag: Rotary
-  timeline-side: left
+  timeline-side: right
 
 - title: Rotaract District Council 3190
   title-url: https://rotaract3190.org/
@@ -36,7 +46,7 @@
     - tag: RID 3190
     - tag: Team ELITE
     - tag: Rotaract
-  timeline-side: right
+  timeline-side: left
 
 - title: Rotary District Council 3190
   title-url: https://www.facebook.com/rotarydistrict3190
@@ -46,7 +56,7 @@
     - tag: RID 3190
     - tag: Sky Rockers
     - tag: Rotary
-  timeline-side: left
+  timeline-side: right
 
 - title: Rotaract Bangalore East
   title-url: https://3190rbe.org/
@@ -57,7 +67,7 @@
     - tag: RBE
     - tag: Easterner
     - tag: Rotaract
-  timeline-side: right
+  timeline-side: left
 
 - title: Rotaract District Council 3190
   title-url: https://rotaract3190.org/
@@ -67,7 +77,7 @@
     - tag: RID 3190
     - tag: Team Panthers
     - tag: Rotaract
-  timeline-side: left
+  timeline-side: right
 
 - title: ROTACON 2019 (ICGF on Youth Services)
   title-url: https://rotaract3190.org/
@@ -77,7 +87,7 @@
     - tag: RID 3190
     - tag: Rotaract
     - tag: Rotary
-  timeline-side: right
+  timeline-side: left
 
 - title: Rotaract District Council 3190
   title-url: https://rotaract3190.org/
@@ -86,7 +96,7 @@
   tags:
     - tag: RID 3190
     - tag: Rotaract
-  timeline-side: left
+  timeline-side: right
 
 - title: Rotary Job Mela
   title-url: https://rotaract3190.org/
@@ -96,7 +106,7 @@
     - tag: RID 3190
     - tag: Rotary
     - tag: Rotaract
-  timeline-side: right
+  timeline-side: left
   
 - title: Rotaract Club of C M R I T
   title-url: https://www.instagram.com/rotaract_cmrit/
@@ -105,7 +115,7 @@
   tags:
     - tag: RID 3190
     - tag: Rotaract
-  timeline-side: left
+  timeline-side: right
 
 - title: Rotaract Club of C M R I T
   title-url: https://www.instagram.com/rotaract_cmrit/
@@ -115,7 +125,7 @@
     - tag: RID 3190
     - tag: Golden Jubilee
     - tag: Rotaract
-  timeline-side: right
+  timeline-side: left
 
 - title: Rotaract District Council 3190
   title-url: https://rotaract3190.org/
@@ -125,7 +135,7 @@
     - tag: RID 3190
     - tag: Golden Jubilee
     - tag: Rotaract
-  timeline-side: left
+  timeline-side: right
 
 - title: Rotaract Club of C M R I T
   title-url: https://www.instagram.com/rotaract_cmrit/
@@ -134,7 +144,7 @@
   tags:
     - tag: RID 3190
     - tag: Rotaract
-  timeline-side: right
+  timeline-side: left
 
 - title: Rotaract Club of C M R I T
   title-url: https://www.instagram.com/rotaract_cmrit/
@@ -143,4 +153,4 @@
   tags:
     - tag: RID 3190
     - tag: Rotaract
-  timeline-side: left
+  timeline-side: right
