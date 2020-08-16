@@ -26,7 +26,8 @@ about_me_description: I entered the Rotary-Rotaract family as a Rotaractor in 20
 
 # SKILLS SECTION
 show_skills_card: false
-skills_title: Skills
+# skills_title: Skills
+skills_title: AAAAAAAA
 
 # TIMELINE SECTION
 show_timeline_card: true
