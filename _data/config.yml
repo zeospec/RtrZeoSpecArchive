@@ -7,7 +7,7 @@ og_img: /assets/images/zeospec.jpg
 
 # typing_text: This will be typed before 'scroll down for more'.
 # > set this to your job/role title
-typing_text: District Rotaract Secretary
+typing_text: DRS Operations & Training
 
 email: hi@zeospec.com
 # github_username: ZeoSpec
@@ -31,7 +31,7 @@ skills_title: AAAAAAAA
 
 # TIMELINE SECTION
 show_timeline_card: true
-timeline_title: Brief Rotaract Timeline
+timeline_title: Brief Rotaract Timeline 
 
 cv_download_link: https://zeospec.com/
 
@@ -40,6 +40,7 @@ cv_download_link: https://zeospec.com/
 show_projects_card: true
 show_projects: true
 projects_title: Caaaming Sooonn!!!
+# projects_title: Key Initiatives/Works
 
 show_os_projects: false
 os_projects_title: Open Source Projects
