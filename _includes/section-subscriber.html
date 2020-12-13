@@ -1,0 +1,18 @@
+<h1 class="title">Stay up to date!</h1>
+<p class="subtitle">Get all the latest updates delivered straight to your inbox.</p>
+
+<div class="contact-icons">
+
+  <!-- Google Form -->  
+  <script type="text/javascript">
+    var submission = false;
+  </script>
+  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+  onload="if(submission)  {window.location='/thankyou';}"></iframe>
+
+  <form action="{{site.data.config.google_form}}" target="hidden_iframe" onsubmit="submission=true;" method="POST">
+    <input class="write2" name="{{site.data.config.formNamekey}}" id="name" type="text" placeholder="Full Name" required>
+    <input class="write2" name="{{site.data.config.formEmailkey}}" id="emailid" type="email"  placeholder="Email ID" required>
+    <input class="btn" type="submit" value="Subscribe">
+  </form>
+</div>
