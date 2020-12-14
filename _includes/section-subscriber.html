@@ -1,9 +1,10 @@
-<h1 class="title">Stay up to date!</h1>
-<p class="subtitle">Get all the latest updates delivered straight to your inbox.</p>
+{%if site.data.config.google_form_subscription %}
+<h1 class="title">{{site.data.config.subscribe__title}}</h1>
+<p class="subtitle">{{site.data.config.subscribe__subtitle}}</p>
 
 <div class="contact-icons">
 
-  <!-- Google Form -->  
+  <!-- Google Form -->   
   <script type="text/javascript">
     var submission = false;
   </script>
@@ -16,3 +17,24 @@
     <input class="btn" type="submit" value="Subscribe">
   </form>
 </div>
+{% endif %}
+
+{%if site.data.config.convertkit_subscription %}
+<h1 class="title">{{site.data.config.subscribe__title}}</h1>
+<p class="subtitle">{{site.data.config.subscribe__subtitle}}</p>
+
+<div class="contact-icons">
+  <!-- Google Form -->   
+  <script type="text/javascript">
+    var submission = false;
+  </script>
+  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+  onload="if(submission)  {window.location='/thankyou';}"></iframe>
+
+  <form action="{{site.data.config.convertkit_form}}" target="hidden_iframe" onsubmit="submission=true;" method="POST">
+    <input class="write2" name="{{site.data.config.convertkit_FNamekey}}" id="name" type="text" placeholder="Full Name" required>
+    <input class="write2" name="{{site.data.config.convertkit_Emailkey}}" id="emailid" type="email"  placeholder="Email ID" required>
+    <input class="btn" type="submit" value="Subscribe">
+  </form>
+</div>
+{% endif %}

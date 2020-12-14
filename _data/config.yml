@@ -44,11 +44,20 @@ projects_title: Caaaming Sooonn!!!
 show_os_projects: false
 os_projects_title: Open Source Projects
 
-# projects_title: Subscriber Section
-show_google_form_subscription: true
+# SUBSCRIBER SECTION
+show_subscriber_card: true
+subscribe__title: Subscribe
+subscribe__subtitle: Stay up to date! Get all the latest updates delivered straight to your inbox.
+
+google_form_subscription: false
 google_form: https://docs.google.com/forms/d/e/1FAIpQLSfB3qsTYxgAcWdde5Jzq7JquR2ASwVR9myv9dy3ULH7UOM2vg/formResponse
 formNamekey: entry.6950510
 formEmailkey: entry.1470521357
+
+convertkit_subscription: true
+convertkit_form: https://app.convertkit.com/forms/1874147/subscriptions
+convertkit_FNamekey: fields[first_name]
+convertkit_Emailkey: email_address
 
 # CONTACT SECTION
 show_contact_card: true
