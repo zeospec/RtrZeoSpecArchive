@@ -10,7 +10,9 @@
 <div class="timeline-wrapper">
   <ul class="timeline">
     {% for event in site.data.timeline %}
-      {% if event.timeline-side == 'left' %}
+
+    {% assign mod = forloop.index | modulo: 2 %}
+    {% if mod == 1 %}
         <li>
           <div class="direction-l">
             <div class="flag-wrapper">
@@ -36,10 +38,8 @@
             </div>
           </div>
         </li>
-      {% endif %}
-
-      {% if event.timeline-side == 'right' %}
-        <li>
+        {% else %}
+         <li>
           <div class="direction-r">
             <div class="flag-wrapper">
               <span class="hexagon"></span>

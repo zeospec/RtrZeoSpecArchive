@@ -15,7 +15,17 @@
 #     - tag: Javascript
 #     - tag: Ruby
 #     - tag: Rails
-#   timeline-side: right
+#
+
+- title: RotaSambandh
+  title-url: https://rotasambandh.com/
+  date: Present
+  subtitle: Creator & Advisory Chair
+  tags:
+    - tag: RBE
+    - tag: Rotaract
+    - tag: Rotary
+    - tag: RID 3190
 
 - title: Rotary 3190 Business Directory
   title-url: http://www.rid3190businessdirectory.in/
@@ -25,7 +35,6 @@
     - tag: RID 3190
     - tag: Sky Rockers
     - tag: Rotary
-  timeline-side: left
 
 - title: Rotary Bangalore East
   title-url: http://rotarybangaloreeast.com/
@@ -37,7 +46,6 @@
     - tag: Easterner
     - tag: Rotary
     - tag: The Beginning
-  timeline-side: right
 
 - title: Rotaract District Council 3190
   title-url: https://rotaract3190.org/
@@ -47,7 +55,6 @@
     - tag: RID 3190
     - tag: Team ELITE
     - tag: Rotaract
-  timeline-side: left
 
 - title: Rotary District Council 3190
   title-url: https://www.facebook.com/rotarydistrict3190
@@ -57,7 +64,6 @@
     - tag: RID 3190
     - tag: Sky Rockers
     - tag: Rotary
-  timeline-side: right
 
 - title: Rotaract Bangalore East
   title-url: https://3190rbe.org/
@@ -68,7 +74,6 @@
     - tag: RBE
     - tag: Easterner
     - tag: Rotaract
-  timeline-side: left
 
 - title: Rotaract District Council 3190
   title-url: https://rotaract3190.org/
@@ -78,7 +83,6 @@
     - tag: RID 3190
     - tag: Team Panthers
     - tag: Rotaract
-  timeline-side: right
 
 - title: ROTACON 2019 (ICGF on Youth Services)
   title-url: https://rotaract3190.org/
@@ -88,7 +92,6 @@
     - tag: RID 3190
     - tag: Rotaract
     - tag: Rotary
-  timeline-side: left
 
 - title: Rotaract District Council 3190
   title-url: https://rotaract3190.org/
@@ -97,7 +100,6 @@
   tags:
     - tag: RID 3190
     - tag: Rotaract
-  timeline-side: right
 
 - title: Rotary Job Mela
   title-url: https://rotaract3190.org/
@@ -107,7 +109,6 @@
     - tag: RID 3190
     - tag: Rotary
     - tag: Rotaract
-  timeline-side: left
   
 - title: Rotaract Club of C M R I T
   title-url: https://www.instagram.com/rotaract_cmrit/
@@ -116,7 +117,6 @@
   tags:
     - tag: RID 3190
     - tag: Rotaract
-  timeline-side: right
 
 - title: Rotaract Club of C M R I T
   title-url: https://www.instagram.com/rotaract_cmrit/
@@ -126,7 +126,6 @@
     - tag: RID 3190
     - tag: Golden Jubilee
     - tag: Rotaract
-  timeline-side: left
 
 - title: Rotaract District Council 3190
   title-url: https://rotaract3190.org/
@@ -136,7 +135,6 @@
     - tag: RID 3190
     - tag: Golden Jubilee
     - tag: Rotaract
-  timeline-side: right
 
 - title: Rotaract Club of C M R I T
   title-url: https://www.instagram.com/rotaract_cmrit/
@@ -145,7 +143,6 @@
   tags:
     - tag: RID 3190
     - tag: Rotaract
-  timeline-side: left
 
 - title: Rotaract Club of C M R I T
   title-url: https://www.instagram.com/rotaract_cmrit/
@@ -155,4 +152,3 @@
     - tag: RID 3190
     - tag: Rotaract
     - tag: The Beginning
-  timeline-side: right
