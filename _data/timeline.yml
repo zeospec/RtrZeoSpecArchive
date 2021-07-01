@@ -5,6 +5,34 @@
 # > tags: List of tags you want to associate with the entry
 # > timeline-side: The side on which you want to display the entry: right or right
 
+- title: Rotaract Bangalore East
+  title-url: https://3190rbe.org/
+  date: RIY 2021 – 2022
+  subtitle: Secretary
+  tags:
+    - tag: RID 3190
+    - tag: RBE
+    - tag: Easterner
+    - tag: Rotaract
+
+- title: Rotary Bangalore East
+  title-url: http://rotarybangaloreeast.com/
+  date: RIY 2021 – 2022
+  subtitle: Youth Service Director
+  tags:
+    - tag: RID 3190
+    - tag: RBE
+    - tag: Easterner
+    - tag: Rotary
+
+- title: Rotary District Council 3190
+  title-url: https://www.facebook.com/rotarydistrict3190
+  date: RIY 2021 – 2022
+  subtitle: Member, Lake Restoration & River Rejuvenation Committee
+  tags:
+    - tag: RID 3190
+    - tag: Rotary
+
 - title: Tarunya 2021 (ICGF on Youth Services)
   title-url: https://rotasambandh.com/
   date: RIY 2020 - 2021
@@ -65,7 +93,7 @@
 
 - title: Rotaract Bangalore East
   title-url: https://3190rbe.org/
-  date: RIY 2020 – 2021
+  date: 19 July 2019 – Present
   subtitle: Charter Member
   tags:
     - tag: RID 3190
