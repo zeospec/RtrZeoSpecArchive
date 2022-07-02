@@ -5,13 +5,20 @@
 # > tags: List of tags you want to associate with the entry
 # > timeline-side: The side on which you want to display the entry: right or right
 
-- title: Rotaract District Council 3190
-  title-url: https://rotaract3190.org/
+- title: Rotaract District Organization 3191
+  title-url: 
   date: RIY 2022 – 2023
-  subtitle: District Training & Technical Head*
+  subtitle: District Rotaract Representative Elect
   tags:
-    - tag: RID 3190
-    - tag: Team ELITE
+    - tag: RID 3191
+    - tag: Rotaract
+    
+- title: Rotaract District Organization 3191
+  title-url: 
+  date: RIY 2021 – 2022
+  subtitle: District Rotaract Representative Nominee
+  tags:
+    - tag: RID 3191
     - tag: Rotaract
 
 - title: Rotary Fellowship of TOASTMASTERS
