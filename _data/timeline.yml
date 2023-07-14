@@ -6,16 +6,24 @@
 # > timeline-side: The side on which you want to display the entry: right or right
 
 - title: Rotaract District Organization 3191
-  title-url: 
-  date: RIY 2022 – 2023
+  title-url: https://rotaract3191.org/
+  date: RY 2023 – 2024
+  subtitle: District Rotaract Representative
+  tags:
+    - tag: RI District 3191
+    - tag: Rotaract
+
+- title: Rotaract District Organization 3191
+  title-url: https://rotaract3191.org/
+  date: RY 2022 – 2023
   subtitle: District Rotaract Representative Elect
   tags:
     - tag: RI District 3191
     - tag: Rotaract
     
 - title: Rotaract District Organization 3191
-  title-url: 
-  date: RIY 2021 – 2022
+  title-url: https://rotaract3191.org/
+  date: RY 2021 – 2022
   subtitle: District Rotaract Representative Nominee
   tags:
     - tag: RI District 3191
@@ -41,7 +49,7 @@
 
 - title: Rotaract Bangalore East
   title-url: https://3190rbe.org/
-  date: RIY 2021 – 2022
+  date: RY 2021 – 2022
   subtitle: Secretary
   tags:
     - tag: RID 3190
@@ -51,7 +59,7 @@
 
 - title: Rotary Bangalore East
   title-url: http://rotarybangaloreeast.com/
-  date: RIY 2021 – 2022
+  date: RY 2021 – 2022
   subtitle: Youth Service Director
   tags:
     - tag: RID 3190
@@ -61,7 +69,7 @@
 
 - title: Rotary District Council 3190
   title-url: https://www.facebook.com/rotarydistrict3190
-  date: RIY 2021 – 2022
+  date: RY 2021 – 2022
   subtitle: Member, Lake Restoration & River Rejuvenation Committee
   tags:
     - tag: RID 3190
@@ -69,7 +77,7 @@
 
 - title: Tarunya 2021 (ICGF on Youth Services)
   title-url: https://rotasambandh.com/
-  date: RIY 2020 - 2021
+  date: RY 2020 - 2021
   subtitle: Rotaract Cooridinator
   tags:
     - tag: RBE
@@ -89,7 +97,7 @@
 
 - title: Rotary 3190 Business Directory
   title-url: http://www.rid3190businessdirectory.in/
-  date: RIY 2020 – 2021   # 14 August 2020 - Present
+  date: RY 2020 – 2021   # 14 August 2020 - Present
   subtitle: Committee Member
   tags:
     - tag: RID 3190
@@ -109,7 +117,7 @@
 
 - title: Rotaract District Council 3190
   title-url: https://rotaract3190.org/
-  date: RIY 2020 – 2021
+  date: RY 2020 – 2021
   subtitle: District Rotaract Secretary, Operations & Training
   tags:
     - tag: RID 3190
@@ -118,7 +126,7 @@
 
 - title: Rotary District Council 3190
   title-url: https://www.facebook.com/rotarydistrict3190
-  date: RIY 2020 – 2021
+  date: RY 2020 – 2021
   subtitle: Member, Awards and Citation Committee
   tags:
     - tag: RID 3190
@@ -137,7 +145,7 @@
 
 - title: Rotaract District Council 3190
   title-url: https://rotaract3190.org/
-  date: RIY 2019 – 2020
+  date: RY 2019 – 2020
   subtitle: District Joint Secretary
   tags:
     - tag: RID 3190
@@ -146,7 +154,7 @@
 
 - title: ROTACON 2019 (ICGF on Youth Services)
   title-url: https://rotaract3190.org/
-  date: RIY 2019 – 2020
+  date: RY 2019 – 2020
   subtitle: Co-Chairperson
   tags:
     - tag: RID 3190
@@ -155,7 +163,7 @@
 
 - title: Rotaract District Council 3190
   title-url: https://rotaract3190.org/
-  date: RIY 2018 – 2019
+  date: RY 2018 – 2019
   subtitle: Director of Webservices
   tags:
     - tag: RID 3190
@@ -163,7 +171,7 @@
 
 - title: Rotary Job Mela
   title-url: https://rotaract3190.org/
-  date: RIY 2018 - 2019
+  date: RY 2018 - 2019
   subtitle: Secretary
   tags:
     - tag: RID 3190
@@ -172,7 +180,7 @@
   
 - title: Rotaract Club of C M R I T
   title-url: https://www.instagram.com/rotaract_cmrit/
-  date: RIY 2018 - 2019
+  date: RY 2018 - 2019
   subtitle: Mentor & Immediate Past President
   tags:
     - tag: RID 3190
@@ -180,7 +188,7 @@
 
 - title: Rotaract Club of C M R I T
   title-url: https://www.instagram.com/rotaract_cmrit/
-  date: RIY 2017 - 2018
+  date: RY 2017 - 2018
   subtitle: President
   tags:
     - tag: RID 3190
@@ -189,7 +197,7 @@
 
 - title: Rotaract District Council 3190
   title-url: https://rotaract3190.org/
-  date: RIY 2017 - 2018
+  date: RY 2017 - 2018
   subtitle: District Committee Member (Internatinal Service)
   tags:
     - tag: RID 3190
@@ -198,7 +206,7 @@
 
 - title: Rotaract Club of C M R I T
   title-url: https://www.instagram.com/rotaract_cmrit/
-  date: RIY 2016 -2017
+  date: RY 2016 -2017
   subtitle: Secretary
   tags:
     - tag: RID 3190
@@ -206,7 +214,7 @@
 
 - title: Utthan - The 43rd Annual District Rotaract Conference
   title-url: https://rotaract3190.org/
-  date: RIY 2015 – 2016
+  date: RY 2015 – 2016
   subtitle: Conference Ambassador
   tags:
     - tag: RID 3190
@@ -215,7 +223,7 @@
 
 - title: Rotaract Club of C M R I T
   title-url: https://www.instagram.com/rotaract_cmrit/
-  date: RIY 2015 – 2016
+  date: RY 2015 – 2016
   subtitle: Charter Member & International Service Director
   tags:
     - tag: RID 3190
