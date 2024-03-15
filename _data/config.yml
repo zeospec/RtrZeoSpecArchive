@@ -50,17 +50,16 @@ show_subscriber_card: true
 subscribe__title: Subscribe
 subscribe__subtitle: Stay up to date! Get all the latest updates delivered straight to your inbox.
 
-google_form_subscription: false
+google_form_subscription: true
 google_form: https://docs.google.com/forms/d/e/1FAIpQLSfB3qsTYxgAcWdde5Jzq7JquR2ASwVR9myv9dy3ULH7UOM2vg/formResponse
-formNamekey: entry.6950510
+formFNamekey: entry.6950510
+formSNamekey: entry.1312227218
 formEmailkey: entry.1470521357
 
 convertkit_subscription: false
 convertkit_form: https://app.convertkit.com/forms/1874147/subscriptions
 convertkit_FNamekey: fields[first_name]
 convertkit_Emailkey: email_address
-
-revue_subscription: true
 
 # CONTACT SECTION
 show_contact_card: true

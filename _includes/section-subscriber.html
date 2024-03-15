@@ -12,8 +12,12 @@
   onload="if(submission)  {window.location='/thankyou';}"></iframe>
 
   <form action="{{site.data.config.google_form}}" target="hidden_iframe" onsubmit="submission=true;" method="POST">
-    <input class="write2" name="{{site.data.config.formNamekey}}" id="name" type="text" placeholder="Full Name" required>
-    <input class="write2" name="{{site.data.config.formEmailkey}}" id="emailid" type="email"  placeholder="Email ID" required>
+    <input class="write2" name="{{site.data.config.formFNamekey}}" id="fname" type="text" placeholder="First Name" required>
+    <input class="write2" name="{{site.data.config.formSNamekey}}" id="lname" type="text" placeholder="Last Name" required>
+    <input class="write2" name="{{site.data.config.formEmailkey}}" id="email" type="email" placeholder="Email ID" required>
+    
+    <input class="write2" name="dlut" id="email" type="hidden" value="1710498261676" required>
+
     <input class="btn" type="submit" value="Subscribe">
   </form>
 </div>
@@ -39,15 +43,3 @@
 </div>
 {% endif %}
 
-{%if site.data.config.revue_subscription %}
-<h1 class="title">{{site.data.config.subscribe__title}}</h1>
-<p class="subtitle">{{site.data.config.subscribe__subtitle}}</p>
-<div class="contact-icons">
-  <form action="https://letters.zeospec.com/add_subscriber" target="_blank" method="POST">
-    <input class="write2" name="member[first_name]" id="fname" type="text" placeholder="First Name" required>
-    <input class="write2" name="member[last_name]" id="lname" type="text" placeholder="Last Name" required>
-    <input class="write2" name="member[email]" id="emailid" type="email"  placeholder="Email ID" required>
-    <input class="btn" name="member[subscribe]" type="submit" value="Subscribe">
-  </form>
-</div>
-{% endif %}
